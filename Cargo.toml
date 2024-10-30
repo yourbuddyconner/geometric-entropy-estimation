@@ -1,0 +1,15 @@
+[package]
+name = "geometric-entropy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = "0.15"
+thiserror = "1.0"
+
+[lib]
+name = "geometric_entropy"
+path = "src/lib.rs"
+
+[dev-dependencies]
+approx = "0.5"
